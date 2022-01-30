@@ -45,7 +45,10 @@ const Home = () => {
           />
         ))}
       </Grid>
-      <Spinner />
+      {loading && <Spinner />}
+      {state.page < state.total_pages && !loading && (
+        <Button text='Load more' callback={() => setIsLoadingMore(true)} />
+      )}
     </>
   );
 };
