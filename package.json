@@ -1,7 +1,7 @@
 {
   "name": "react-rmdb",
   "version": "0.1.0",
-  "homepage": "https://jeremiahtee.github.io/react-movie-db",
+  "homepage": "https://jeremiahtee.github.io/react-rmdb",
   "private": true,
   "dependencies": {
     "history": "^5.2.0",
